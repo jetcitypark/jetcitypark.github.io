@@ -1,7 +1,7 @@
-#jetcity.co.kr Robots Exclusion Rules - Updated April 4, 2021
+#jetcity.co.kr Robots Exclusion Rules - Updated April 5, 2021
 
 User-agent: *
 
 Allow:/
 
-#Sitemap:https://www.jetcity.co.kr/.sitemap.xml
+#Sitemap:https://www.jetcity.co.kr/sitemap.xml
