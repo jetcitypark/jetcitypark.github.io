@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+	* { margin:0; padding:0; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";}
+	body { background-image:url(../images/bg.png); z-index:-2; width: 100%; }
+	
+		#pc_main {width:100%; font-family:Helvetica;}
+		.logo {width:7%; margin-left:45%;margin-top: 2%;}
+		nav{
+			font-size: 13px;
+			float: left;
+			z-index: 11;
+			background-color: #ffffff;
+			width: 90%;
+			margin-left: 5%;
+			text-align: center;
+			}
+			nav ul{
+					z-index:12;
+					text-align:center;
+					margin:0 auto;
+					width:100%;
+					list-style:none;
+					position:relative;
+					display:none;
+					display:-webkit-box;
+				}
+			nav ul li{
+					box_flex:1;
+					-webkit-box-flex:1;
+				}
+			nav ul li:hover{
+					background-color:#fff;
+					color:#4AEFD1;
+				}
+			nav ul li a{
+					display:block;
+					margin-left:5%;
+					padding:1%;
+					color:#000;
+					text-decoration:none;
+				}
+			nav ul li:hover a{
+					color:#4AEFD1;
+					display:block;
+				}
+			nav ul li:hover>ul{
+					display:contents;
+				}
+			nav ul ul{
+				display:none;
+				width:32.4%;
+				padding:1%;
+				background:#fff;
+				opacity:0.8;
+				color:#4AEFD1;
+				border-radius:0px;
+				position:absolute;
+				top:100%;
+				}
+			nav ul ul li{
+				position:relative;
+				}
+			nav ul ul li:hover{
+				background:#fff;
+				opacity:0.5;
+				}
+				#mobile_main {display:none;}
+				#mobile_navi {display:none;}
+
+				#mobile_navi{display:none;}
+		
+		 
+		 .nav {display:none;}
+		 .jquery-script-ads{display:none;}
+
+		 .pc_banner { width:100%;  margin-left:13%;  margin-top: 3%; color:#fff; text-align:justify; font-display: swap; }
+		 	.table1 {width:100%;}
+			.banner1 { margin-left: 5%; width:100%;}
+			.follw {width: 7%; margin-left: 15%;}
+			.insta_logo {width: 5%; margin-top: 2%;margin-left: 16%;}
+			.cafe_logo {width: 8%; margin-top: 3%;margin-left: 15%;}
+			.blog_logo {width: 5%; margin-top: 3%;margin-left: 16%;}
+		 .reser{width: 15%; margin-left: 60%;}
+		 .tri{width: 4%; margin-left:45%; margin-top: 1%;} 
+		
+		.mobile_banner{display: none;}
+		
+		#pc_content1 {width:90%; margin-left: 13%; font-size: 12.5px; text-align:justify; font-display: swap; text-align: justify-all; }
+			.table2 {width:80%;}
+			.small_wave {width: 5%;}
+			.jetcity_member {width: 100%; margin-left: 3%;}
+
+		.circle{width: 3%; margin-left: 46%; margin-top: 3%;}
+
+		.name2{width: 15%; margin-left:13%;}
+		.name3{width: 15%; margin-left:13%;}
+
+		.price{width: 80%; margin-left: 13%;}
+		
+		
+		
+		
+		#pc_content4 {width:100%; margin-left: 13%; font-size: 12.5px; text-align:justify; font-display: swap; text-align: justify-all; }			
+		.name4{width: 15%;}
+		.price2{width: 80%;}
+
+		#pc_content5 {width:90%; margin-left: 13%; margin-bottom: 5%; font-size: 12.5px; text-align:justify; font-display: swap; text-align: justify-all; margin-top: 3%;}
+		.name5{width: 17%;}
+
+		#pc_content6 {width:90%; margin-left: 13%; font-size: 12.5px; text-align:justify; font-display: swap; text-align: justify-all; }	
+		.name6{width: 17%;}
+		.map{width: 1.5%;}
+		.car{width: 4%;}
+		.bus{width: 3%;}
+		.bus_time{width: 70%;}
+			
+
+		#menu {display:none;}
+		.mobile_content {display:none;}
+		.top1{ width:8%; position: fixed; margin-left: 90%; bottom: 50px;}
+		.top2{display: none;}
+		#footer { width:100%; background-color:#1A1A1A; color:#fff; margin-top:10px; margin:auto; text-align:center; position:fixed; bottom:0px; }		}
+		}
