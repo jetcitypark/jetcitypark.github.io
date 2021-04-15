@@ -51,6 +51,8 @@ body{background-color:#fff; background-image:url(../images/bg.png); }
 		.bus{width: 10%;}
 		.bus_time{width: 90%;}
 
+#pc_content7 {width:90%; margin-left: 5%; font-size: 12.5px; text-align:justify; font-display: swap; text-align: justify-all; }	
+
 
 .top1{display: none;}
 .top2{ width:20%; position: fixed; margin-left: 80%; bottom: 20px;}
