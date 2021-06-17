@@ -18,11 +18,6 @@ body {
 	.js .slicknav_menu {
 		display:block;
 	}
+
 }
 
-
-@media (max-width: 900px) {
-  iframe {
-    display: none;
-  }
-}

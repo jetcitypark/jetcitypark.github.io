@@ -326,18 +326,20 @@
 	<iframe src="https://cafe.naver.com/jetcity?iframe_url=/ArticleList.nhn%3Fsearch.clubid=27433860%26search.menuid=7%26search.boardtype=I%26search.totalCount=201%26search.page=1" width="90%" height="550" style="border:0;" allowfullscreen="" loading="lazy" marginheight="10" ></iframe>
 	<script>
 	  
-          var $iframe = $('iframe')
-	   
-    
+          var $iframe = $('iframe');
+	  $iframe.hide()
+	  
           function showIframe() {
-   	    if (window.matchMedia("(min-width: 900px)").matches) {
-              $iframe.attr('src', src);
-  	    }
+   	    if (window.matchMedia("(min-width: 899px)").matches) {
+	      $iframe.show()
+  	    } else {
+	      $iframe.hide()
+
+	    }
           }
 
           $(window).on('resize', showIframe);
 
-          showIframe();
         </script>
 	  
 	<br/><br/><br/>            
