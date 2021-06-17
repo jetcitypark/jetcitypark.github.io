@@ -327,7 +327,6 @@
 	<script>
 	  
           var $iframe = $('iframe');
-	  $iframe.hide()
 	  
           function showIframe() {
    	    if (window.matchMedia("(min-width: 899px)").matches) {
@@ -340,6 +339,7 @@
 
           $(window).on('resize', showIframe);
 
+	  showIframe()
         </script>
 	  
 	<br/><br/><br/>            
