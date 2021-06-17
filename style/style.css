@@ -19,3 +19,10 @@ body {
 		display:block;
 	}
 }
+
+
+@media (max-width: 900px) {
+  iframe {
+    display: none;
+  }
+}
