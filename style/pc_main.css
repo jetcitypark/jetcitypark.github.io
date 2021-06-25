@@ -118,7 +118,9 @@
 		.bus{width: 3%;}
 		.bus_time{width: 70%;}
 			
-		#pc_content7 {width:90%; margin-left: 13%; font-size: 12.5px; text-align:justify; font-display: swap; text-align: justify-all; }	
+		#pc_content7 {width:100%; margin-left: 13%; font-size: 12.5px; text-align:justify; font-display: swap; text-align: justify-all; }				
+		
+		#pc_content8 {width:90%; margin-left: 13%; font-size: 12.5px; text-align:justify; font-display: swap; text-align: justify-all; }	
 
 		#menu {display:none;}
 		.mobile_content {display:none;}

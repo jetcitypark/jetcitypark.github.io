@@ -53,7 +53,11 @@ body{background-color:#fff; background-image:url(../images/bg.png); }
 		.bus{width: 10%;}
 		.bus_time{width: 90%;}
 
-#pc_content7 {width:90%; margin-left: 5%; font-size: 12.5px; text-align:justify; font-display: swap; text-align: justify-all; }	
+#pc_content7 {width:90%; margin-left: 5%; font-size: 12.5px; text-align:justify; font-display: swap; text-align: justify-all; }
+			.table2 {width:100%;}
+			.small_wave {width: 15%;}
+
+#pc_content8 {width:90%; margin-left: 5%; font-size: 12.5px; text-align:justify; font-display: swap; text-align: justify-all; }	
 
 
 .top1{display: none;}

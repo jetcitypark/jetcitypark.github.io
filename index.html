@@ -177,7 +177,7 @@
 		
     <div id="pc_content1">
       <article>
-   	<table  align="center" class="table2">
+   		<table  align="center" class="table2">
           <tbody>
             <tr>	
 	      <img src="images/small_wave.png" class="small_wave"><br>
@@ -292,7 +292,7 @@
     <div id="pc_content1_5">
       <h2>
         <strong>
-	  &nbsp;&nbsp;<a href="https://m.blog.naver.com/jetcity/222288757789" style="color: #404040; text-decoration: underline;" target="_blank">[ 시즌강습 모집 안내 및 할인정보 ]</a><br/>
+	  &nbsp;&nbsp;[ <a href="https://m.blog.naver.com/jetcity/222288757789" style="color: blue; text-decoration: underline;" target="_blank">시즌강습 모집 안내 및 할인정보</a> ]<br/>
 	</strong>
       </h2>
     </div>
@@ -312,7 +312,7 @@
       <img src="images/price2.png" class="price2"><br>
       <h2>
 	<strong>
-	  &nbsp;&nbsp;<a href="https://m.blog.naver.com/jetcity/222280186148" style="color: #404040; text-decoration: underline;" target="_blank">[ 시즌회원 모집 안내 및 할인정보 ]</a><br/>
+	  &nbsp;&nbsp;[ <a href="https://m.blog.naver.com/jetcity/222280186148" style="color: blue; text-decoration: underline;" target="_blank">시즌회원 모집 안내 및 할인정보</a> ]<br/>
 	</strong>
       </h2>
     </div>
@@ -327,12 +327,19 @@
 	<script>
 	  
           var $iframe = $('iframe');
-	  
+	  var doesShowIframe = false;
           function showIframe() {
-   	    if (window.matchMedia("(min-width: 899px)").matches) {
-	      $iframe.show()
+   	      if (window.matchMedia("(min-width: 899px)").matches) {
+		  
+		$iframe.show()
+		if  (!doesShowIframe) {
+		    $iframe.attr('src', $iframe.attr('src'));
+		    doesShowIframe = true;
+		}
+		
   	    } else {
-	      $iframe.hide()
+		$iframe.hide()
+		doesShowIframe = false;
 
 	    }
           }
@@ -393,13 +400,26 @@
       <br/>
     </div>
     <img src="images/tri.png" class="circle"><br><br><br>
-
-    <h1>&nbsp;&nbsp;자주묻는질문</h1><br/>
-    <img src="images/jetcity_faq.jpg" class="price">    
+		
+	    <div id="pc_content7">
+	      <table  align="center" class="table2">
+		<tbody>
+		  <tr>	
+		    <img src="images/small_wave.png" class="small_wave"><br>
+		    <strong><font size="+3"><span style="color: #000">자주묻는질문</span></font></strong><br /><br /><br />
+		    <td></td>
+		  </tr>
+		      
+	        </tbody>
+	      </table> 
+            </div>
+    <img src="images/jetcity_faq1.jpg" class="price">    
+    <img src="images/jetcity_faq2.jpg" class="price">    
     <img src="images/jetcity_end.jpg" class="price"><br/><br/><br/>
-
+    
     <hr class="mt-2 mb-3"/>
-    <div id="pc_content7">
+
+    <div id="pc_content8">
       <br/>
       <h2><strong>서프클럽젯시티</strong></h2><br/>
       <h2>전화: <a href="tel:070-4411-6789" title="전화연결" style="color: blue; text-decoration: underline;" >070-4411-6789</a><br/>
