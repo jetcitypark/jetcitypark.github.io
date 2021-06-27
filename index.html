@@ -343,31 +343,39 @@
 
     <div id="pc_content5">
       <img src="images/name5.png" class="name5"><br><br>
-      
-	<iframe src="https://cafe.naver.com/jetcity?iframe_url=/ArticleList.nhn%3Fsearch.clubid=27433860%26search.menuid=7%26search.boardtype=I%26search.totalCount=201%26search.page=1" width="90%" height="550" style="border:0;" allowfullscreen="" loading="lazy" marginheight="10" ></iframe>
+  		<div id="cafe"></div>  
+  <!--iframe has been disabled bacause of the bugs relating the iframe: 
+  	1. the iframe takes focus so the user cannot review the website from top to bottom.
+  	2. iframe does not show the cafe properly when the site is changed from the mobile version to pc version. 
+  	3. In the mobile mode, iframe does not show proper cafe photo page. 
+		At least these bugs should be fixed to use iFrame.
+  --> 		
+	<!--iframe src="https://cafe.naver.com/jetcity?iframe_url=/ArticleList.nhn%3Fsearch.clubid=27433860%26search.menuid=7%26search.boardtype=I%26search.totalCount=201%26search.page=1" width="90%" height="550" style="border:0;" allowfullscreen="" loading="lazy" marginheight="10" ></iframe-->
 	<script>
-	  
-          var $iframe = $('iframe');
+
+/*	
+    var $iframe = $('iframe');
 	  var doesShowIframe = false;
-          function showIframe() {
-   	      if (window.matchMedia("(min-width: 899px)").matches) {
+		function showIframe() {
+   	if (window.matchMedia("(min-width: 899px)").matches) {
 		  
-		$iframe.show()
-		if  (!doesShowIframe) {
+			$iframe.show()
+			if  (!doesShowIframe) {
 		    $iframe.attr('src', $iframe.attr('src'));
 		    doesShowIframe = true;
-		}
+			}
 		
-  	    } else {
-		$iframe.hide()
-		doesShowIframe = false;
+  	  } else {
+				$iframe.hide()
+				doesShowIframe = false;
 
 	    }
-          }
+      }
 
-          $(window).on('resize', showIframe);
+      $(window).on('resize', showIframe);
 
 	  showIframe()
+*/
         </script>
 	  
 	<br/><br/><br/>            
