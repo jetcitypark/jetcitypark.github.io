@@ -31,7 +31,10 @@ body{background-color:#fff; background-image:url(../images/bg.png); }
 			.table2 {width:100%;}
 			.small_wave {width: 15%;}
 			.jetcity_member {width: 100%; margin-left: 3%;}
-
+			.video-wrap {position:relative; padding-bottom:56.25%; padding-top:30px; height:0; overflow:hidden;}
+			.video-wrap iframe,
+			.video-wrap object,
+			.video-wrap embed {position:absolute; top:0; left:0; width:100%; height:100%;}
 		.circle{width: 10%; margin-left: 46%; margin-top: 5%;}
 
 		.name2{width: 47%; margin-left:5%; margin-top: 4%;}
