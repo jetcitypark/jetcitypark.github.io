@@ -27,6 +27,7 @@
     <meta name="keywords" content="서핑,양양서핑,서핑강습,체험강습,정규강습,게스트하우스,어린이서핑,바베큐파티,단체,워크샵,양양동호해변,양양,시즌방,시즌권,시즌회원,시즌회원권,강습,시즌강습,렌탈,예약,동호해변,게하,펜션">
     <meta name="robots" content="index,follow" />
     <meta name="description" content="양양서핑 서핑강습 게스트하우스 바베큐파티 단체 워크샵 동호해변 시즌방 시즌권 시즌회원 시즌회원권 시즌강습 렌탈 게하" />
+
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:title" content="양양서핑 젯시티 서프클럽: 홈페이지" />
@@ -36,10 +37,12 @@
     <!-- favicon -->
     <link rel="shortcut icon" href="https://jetcity.co.kr/img/jetcity-favicon.jpg" />
 
-    <!-- Bootstrap 5
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-		 End Bootstrap 5-->
+    <!-- Bootstrap 4.6 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+		<!-- End Bootstrap 4.6 -->
+
 
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
       
@@ -48,13 +51,18 @@
     <link rel="stylesheet" type="text/css" media="screen and (max-width:899px)" href="style/mobile_main.css" >
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/slicknav.css">	
+  	
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:600,100,300|Passion+One" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/app.css">
     <style>
       h1 { margin-top: 100px auto; text-align: center; }
+    </style>
 
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <style>
 			.myButton {
 				box-shadow:inset 0px 1px 0px 0px #a4e271;
 				
@@ -84,22 +92,12 @@
     </style>
     
 		
-		
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/demo.css" />
     <link rel="stylesheet" type="text/css" href="css/component.css" />
     <script src="js/jquery-1.12.4.min.js"></script>
     <script src="js/modernizr.custom.js"></script>
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-7243260-2']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-	  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-	  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-	  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
+    
     <script type="application/ld+json">
       {
 	  "@context": "http://schema.org",
@@ -126,59 +124,70 @@
 		height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<!-- End Google Tag Manager (noscript) -->
 
-    <div id="pc_main">
-      <a href="index.html"><img src="images/logo.png" class="logo"></a>
+  <div class="skippy overflow-hidden">
+  	<div class="container-xl">
+    	<a class="sr-only sr-only-focusable d-inline-flex p-2 m-1" href="#content">Skip to main content</a>
+    	<a class="sr-only sr-only-focusable d-none d-md-inline-flex p-2 m-1" href="#bd-docs-nav">Skip to docs navigation</a>
+  	</div>
+	</div>
+
+	<header class="navbar navbar-expand flex-column flex-md-row bd-navbar">
+    <div id="pc_main" class="container-fluid">
       <nav>
-       	<ul>
-	  <li><a href="#pc_content1">젯시티&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>
-          </li>
-          <li><a href="#pc_content2">강습·비용&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>
-          </li>
-          <li><a href="#pc_content3">렌탈&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>
-          </li>   
-	  <li><a href="#pc_content4">시즌권·보관·숙박&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>
-          </li>
-	  <li><a href="#pc_content5">강습사진&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>
-	  </li>
-	  <li><a href="#pc_content6">오시는길&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          </li>
-	</ul>
-      </nav>		
+    		<div class="row">
+    			<div class="col">
+		      <a href="/" class="navbar-brand mr-0 mr-md-2 mt-2 mb-2 mt-2"><img src="images/logo.png" class="logo"></a>
+		    	</div>
+		    </div>
+		    <div class="row">
+	       	<div class="col">
+	  	     	<ul>
+		  				<li>
+		  					<a href="#pc_content1">젯시티</a>
+		  				</li>
+	            <li>
+    		      	<a href="#pc_content2">강습·비용</a>
+        		  </li>
+          		<li>
+          			<a href="#pc_content3">렌탈</a>
+          		</li>
+			  			<li>
+			  				<a href="#pc_content4">시즌권·보관·숙박</a>
+		          </li>
+			  			<li>
+			  				<a href="#pc_content5">강습사진</a>
+			  			</li>
+			  			<li>
+			  				<a href="#pc_content6">오시는길</a>
+		          </li>
+						</ul>
+					</div>
+  	    </nav>		
     </div>
     <div class="nav">
       <div class="logo">
-	<a href="index.html"><img src="images/logo_white.png" id="mobile_logo"></a>
+				<a href="index.html"><img src="images/logo_white.png" id="mobile_logo"></a>
       </div>
       <div class="main-nav">
-	<a class="hamburger-nav"></a>
-	<ul class="menu">
-	  <a href="#pc_content1"><li>젯시티</li></a>
-	  <a href="#pc_content2"><li>강습·비용</li></a>
-	  <a href="#pc_content3"><li>렌탈</li></a>
-	  <a href="#pc_content4"><li>시즌권·보관·숙박</li></a>
-	  <a href="#pc_content5"><li>강습사진</li></a>
-	  <a href="#pc_content6"><li>오시는길</li></a>
-	</ul>
+				<a class="hamburger-nav"></a>
+				<ul class="menu">
+				  <a href="#pc_content1"><li>젯시티</li></a>
+				  <a href="#pc_content2"><li>강습·비용</li></a>
+				  <a href="#pc_content3"><li>렌탈</li></a>
+				  <a href="#pc_content4"><li>시즌권·보관·숙박</li></a>
+				  <a href="#pc_content5"><li>강습사진</li></a>
+				  <a href="#pc_content6"><li>오시는길</li></a>
+				</ul>
       </div>
-    </div>   
-    <div class="jquery-script-ads" align="center">
-      <script type="text/javascript"><!--
-	google_ad_client = "ca-pub-2783044520727903";
-	/* jQuery_demo */
-	google_ad_slot = "2780937993";
-	google_ad_width = 728;
-	google_ad_height = 90;
-	//-->
-      </script>
-      <script type="text/javascript"
-	      src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-      </script>
-    </div>
-    <script src="js/app.js"></script>
-    <section class="pc_banner">
-      <article>
-   	<table align="center" class="table1">
-          <tbody>
+    </div>  
+  </header>
+
+
+  <script src="js/app.js"></script>
+  <section class="pc_banner">
+    <article>
+   		<table align="center" class="table1">
+      <tbody>
             <tr>
               <td width="60%">
               <em>
@@ -263,7 +272,7 @@
       <div class="container">		
 				<div class="slideshow" id="slideshow">
 				  <div class="vertical-center"><h2 style="margin-left: 13%">안전하고 빠른 <a class="myButton" >네이버 예약</a>이나 전화 또는 문자로 예약주세요.</h2><br/></div>
-				  <div class="vertical-center"><h2 style="margin-left: 13%">어린이서핑 강습은 4세부터 가능합니다. 어린이 눈높이에 맞는 서핑강습, 다양한 사이즈의 웻수트와 서핑 보드가 준비되어 있습니다.</h2><br/></div>					
+				  <div class="vertical-center"><h2 style="margin-left: 13%">어린이서핑 강습은 4세부터 가능합니다. 어린이 눈높이에 맞는 서핑강습, 어린이 몸에 맞는 다양한 사이즈의 웻수트와 서핑 보드가 준비되어 있습니다.</h2><br/></div>					
 					<ol class="slides">
 				    <li class="current">
 				      <div class="description">
@@ -297,7 +306,7 @@
 				    <li class="current">
 				      <div class="description">
 								<h2>서핑 레벨업강습(PT)</h2><br>
-								개인별 수준과 체력에 맞는 다양한 커리큘럼 </br><mark> &nbsp;강습 1시간 + 서핑보드&슈트렌탈 + 강습 후 프리서핑 + 샤워&nbsp; </mark></br></br><span style="color: #404040"><h3></h3><a href="https://booking.naver.com/booking/12/bizes/158234/items/2795171"  target="_blank" class="myButton">99,000원 (1회) - 네이버 예약</a></br>
+								개인별 수준과 체력에 맞는 다양한 맞춤형 커리큘럼 </br><mark> &nbsp;강습 1시간 + 서핑보드&슈트렌탈 + 강습 후 프리서핑 + 샤워&nbsp; </mark></br></br><span style="color: #404040"><h3></h3><a href="https://booking.naver.com/booking/12/bizes/158234/items/2795171"  target="_blank" class="myButton">99,000원 (1회) - 네이버 예약</a></br>
 								전화문자예약 가능
 								<h3>400,000원 (5회)</br>700,000원 (10회)</h3>
 								
@@ -369,10 +378,10 @@
 			      <br/>
 						<!-- h2>&nbsp;&nbsp;<strong>입금계좌: 신한 010-4420-6789 예금주: 박부근(서프클럽젯시티)</strong></h2><br/-->
       			<br/>
-						<h2>기타정보</h2><br/>
+						<h2>기타소식</h2><br/>
 							<h2>
 			        	<strong>
-				  				&nbsp;&nbsp;- <a href="https://m.blog.naver.com/jetcity/222288757789" style="color: blue; text-decoration: underline;" target="_blank">시즌강습 모집 안내</a><br/>
+				  				&nbsp;&nbsp;- <a href="https://m.blog.naver.com/jetcity/222288757789" style="color: blue; text-decoration: underline;">시즌강습 모집 안내</a><br/>
 								</strong>
 							</h2>
 			    	</div>
@@ -417,10 +426,10 @@
 	      <br/>
 				<!-- h2>&nbsp;&nbsp;<strong>입금계좌: 신한 010-4420-6789 예금주: 박부근(서프클럽젯시티)</strong></h2><br/-->
   			<br/>
-				<h2>기타정보</h2><br/>
+				<h2>기타소식</h2><br/>
 				<h2>
       		<strong>
-  			  	&nbsp;&nbsp;- <a href="https://m.blog.naver.com/jetcity/222280186148" style="color: blue; text-decoration: underline;" target="_blank">시즌회원 모집 안내</a><br/>
+  			  	&nbsp;&nbsp;- <a href="https://m.blog.naver.com/jetcity/222280186148" style="color: blue; text-decoration: underline;">시즌회원 모집 안내</a><br/>
 					</strong>	
 				</h2>
 			</div>
