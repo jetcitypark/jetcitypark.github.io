@@ -4,9 +4,10 @@ $(document).ready(function(){
 
         // $(".menu").fadeToggle("slow").toggleClass("menu-hide");
         $(".menu").animate({
-          height: 'toggle'
+          height: "toggle"
         });
 
     });
 
 });
+

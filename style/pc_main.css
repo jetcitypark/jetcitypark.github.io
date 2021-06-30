@@ -5,6 +5,7 @@
 	body { background-image:url(../images/bg.png); z-index:-2; width: 100%; }
 	
 		#pc_main {width:100%; font-family:Helvetica;}
+		#mobile_main {display: none;}
 		.logo {width:20%;}
 		nav{
 			font-size: 13px;
@@ -68,8 +69,6 @@
 				#mobile_main {display:none;}
 				#mobile_navi {display:none;}
 
-				#mobile_navi{display:none;}
-		
 		 
 		 .nav {display:none;}
 		 .jquery-script-ads{display:none;}
