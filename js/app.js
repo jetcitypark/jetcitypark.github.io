@@ -11,7 +11,7 @@ $(document).ready(function(){
 
     // Collapse toggle menu after click 
 
-    $(".nav-item-mobile").each(function () {
+    $(".nav-link-mobile").each(function () {
         
         $(this).on("click", function(){
             
