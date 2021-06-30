@@ -9,5 +9,17 @@ $(document).ready(function(){
 
     });
 
+    // Collapse toggle menu after click 
+
+    $(".nav-item-mobile").each(function () {
+        
+        $(this).on("click", function(){
+            
+            $(".menu").animate({
+                height: "toggle"
+            })
+        })
+    })
+
 });
 
