@@ -83,48 +83,35 @@
 			.cafe_logo {width: 8%; margin-top: 3%;margin-left: 15%;}
 			.blog_logo {width: 5%; margin-top: 3%;margin-left: 16%;}
 			.facebook_logo {width: 5%; margin-top: 3%;margin-left: 16%;}
-		 .reser{margin-left: 60%;}
-		 .tri{width: 4%; margin-left:45%; margin-top: 1%;} 
+		.reser{margin-left: 60%;}
 		
 		.mobile_banner{display: none;}
 
 		.small_wave {width: 5%;}	
+		.circle{width: 3%; margin-top: 3%; margin-bottom: 3%;}
 		
-		#pc_content1 {text-align:justify; font-display: swap; text-align: justify-all; }
+		#pc_content1 {text-align:justify; font-display: swap; text-align: justify-all;}
 		
 			.video-wrap {position:relative; padding-bottom:56.25%; padding-top:30px; height:0; overflow:hidden;}
 			.video-wrap iframe,
 			.video-wrap object,
 			.video-wrap embed {position:absolute; top:0; left:0; width:100%; height:100%;}
 
-		.circle{width: 3%; margin-left: 46%; margin-top: 3%;}
+		#pc_content4 {text-align:justify; font-display: swap; text-align: justify-all;}			
 
-		.name2{width: 15%; margin-left:13%;}
-		.name3{width: 15%; margin-left:13%;}
+		#pc_content5 {text-align:justify; font-display: swap; text-align: justify-all;}
+		
 
-		.price{width: 80%; margin-left: 13%;}
-		
-		
-		
-		#pc_content1_5 {width:100%; margin-left: 13%; font-size: 12.5px; text-align:justify; font-display: swap; text-align: justify-all; }				
-		
-		#pc_content4 {width:100%; margin-left: 13%; font-size: 12.5px; text-align:justify; font-display: swap; text-align: justify-all; }			
-		.name4{width: 15%;}
-		.price2{width: 80%;}
-
-		#pc_content5 {width:90%; margin-left: 13%; margin-bottom: 5%; font-size: 12.5px; text-align:justify; font-display: swap; text-align: justify-all; margin-top: 3%;}
-		.name5{width: 17%;}
-
-		#pc_content6 {width:90%; margin-left: 13%; font-size: 12.5px; text-align:justify; font-display: swap; text-align: justify-all; }	
+		#pc_content6 {ext-align:justify; font-display: swap; text-align: justify-all; }	
 		.name6{width: 17%;}
 		.map{width: 1.5%;}
 		.car{width: 4%;}
 		.bus{width: 3%;}
 		.bus_time{width: 70%;}
 			
-		#pc_content7 {width:100%; margin-left: 13%; font-size: 12.5px; text-align:justify; font-display: swap; text-align: justify-all; }				
+		#pc_content7 {text-align:justify; font-display: swap; text-align: justify-all; }				
 		
-		#pc_content8 {width:90%; margin-left: 13%; font-size: 12.5px; text-align:justify; font-display: swap; text-align: justify-all; }	
+		#pc_content8 {text-align:justify; font-display: swap; text-align: justify-all; }	
 
 		#menu {display:none;}
 		.mobile_content {display:none;}
