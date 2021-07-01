@@ -15,11 +15,17 @@ $(document).ready(function(){
         
         $(this).on("click", function(){
             
-            $(".menu").animate({
-                height: "toggle"
-            })
+            $(".hamburger-nav").click();
         })
     })
+
+    $(document).click(function (event) {
+        var clickover = $(event.target);
+        var _opened = ($(".menu").css("display") == "block");
+        if (_opened === true && !clickover.hasClass("hamburger-nav")) {
+            $(".hamburger-nav").click();
+        }
+    });
 
 });
 
