@@ -6,18 +6,3 @@ body {
 	font-size:100%;
 }
 
-.slicknav_menu {
-	display:none;
-}
-
-@media screen and (max-width:899px) {
-	.js #menu {
-		display:none;
-	}
-	
-	.js .slicknav_menu {
-		display:block;
-	}
-
-}
-
