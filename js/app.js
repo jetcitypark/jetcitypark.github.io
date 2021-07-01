@@ -22,7 +22,10 @@ $(document).ready(function(){
     $(document).click(function (event) {
         var clickover = $(event.target);
         var _opened = ($(".menu").css("display") == "block");
-        if (_opened === true && !clickover.hasClass("hamburger-nav")) {
+        if (_opened === true 
+            && !clickover.hasClass("hamburger-nav") 
+            && !clickover.hasClass("nav-link-mobile")
+            && !clickover.hasClass("nav-item-mobile")) {
             $(".hamburger-nav").click();
         }
     });

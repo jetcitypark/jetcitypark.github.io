@@ -90,29 +90,26 @@
 		.small_wave {width: 5%;}	
 		.circle{width: 3%; margin-top: 3%; margin-bottom: 3%;}
 		
-		#pc_content1 {font-display: swap; }
+		#intro {font-display: swap;}
 		
 			.video-wrap {position:relative; padding-bottom:56.25%; padding-top:30px; height:0; overflow:hidden;}
 			.video-wrap iframe,
 			.video-wrap object,
 			.video-wrap embed {position:absolute; top:0; left:0; width:100%; height:100%;}
 
-		#pc_content4 {font-display: swap;}			
+		#guesthouse {font-display: swap;}			
 
-		#pc_content5 {font-display: swap;}
+		#photo {font-display: swap;}
 		
 
-		#pc_content6 {font-display: swap;}	
-		.name6{width: 17%;}
+		#location {font-display: swap;}	
 		.map{width: 1.5%;}
 		.car{width: 4%;}
 		.bus{width: 3%;}
 		.bus_time{width: 70%;}
 			
-		#pc_content7 {font-display: swap;}				
+		#faq {font-display: swap;}				
 		
-		#pc_content8 {font-display: swap;}	
-
 		#menu {display:none;}
 		.mobile_content {display:none;}
 		.top1{ width:8%; position: fixed; margin-left: 90%; bottom: 50px;}
