@@ -55,12 +55,38 @@ $(document).ready(function(){
             })
         })
     }
+    // Get the modal
+    var modal = document.getElementById("myModal");
+
+    // Get the <span> element that closes the modal
+    var span = $(".modal-close");
+
+    // When the user clicks on <span> (x), close the modal
+    span.on("click", function() {
+        hideTelNumberDiv();
+    });
+
+    // When the user clicks anywhere outside of the modal, close it
+    $(document).click(function (e) {
+        if (e.target == modal) {
+            hideTelNumberDiv();
+        }
+    })
 });
 
 function showTelNumberDiv(telNumber) {
-    alert(`젯시티 전화번호: `+ telNumber +`
+    $("#modal-content-tel-number").html(telNumber);
+    
+    $("#myModal").css({display: "block"});
+    
+    $("header").animate({height: "toggle"});
+}
 
-전화연결은 모바일에서 가능합니다.`)
+function hideTelNumberDiv() {
+
+    $("#myModal").css({display: "none"});
+
+    $("header").animate({height: "toggle"});
 }
 
 
