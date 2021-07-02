@@ -3,6 +3,60 @@ body {
 	font-family:Helvetica, Arial, sans-serif;
 	margin:0;
 	padding:0;
-	font-size: 80vw;
+	font-size: 100%;
 }
+
+h1 {
+	color: black;
+	margin-top: 0.2em;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #a4e271;
+	
+	background-color:rgb(6,191,80);
+	border-radius:6px;
+	border:1px solid #74b807;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	padding:6px 6px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528009;			
+}
+.myButton:hover {
+	background-color:rgb(16,201,90);
+	color:#ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.white {
+  color: #ffffff;
+}
+
+.black {
+  color: #000000;
+}
+
+.bg-white {
+  background: #ffffff;
+}
+
+.lesson-item {
+	background-color: rgba(216,235,243);
+}
+
+.image-description {
+	height: 20px;
+	background-color: rgb(216,235,243);
+	color: rgb(216,235,243);
+}
+
 
