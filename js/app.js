@@ -40,7 +40,7 @@ $(document).ready(function(){
     if (window.mobileCheck() == false) {
         $("a").each(function () {
             if (!$(this).attr("href")) return;
-            if (!$(this).attr("href").substring(0,4)=="tel:") return;
+            if (!($(this).attr("href").substring(0,4)=="tel:")) return;
 
             var telNumber = $(this).attr("href").substring(4);
             $(this).attr("tel-number", telNumber);
