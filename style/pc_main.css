@@ -71,19 +71,28 @@
 				#mobile_navi {display:none;}
 
 		 
-		 .nav {display:none;}
-		 .jquery-script-ads{display:none;}
+		.nav {display:none;}
 
-		 .pc_banner { width:100%;  margin-left:13%;  margin-top: 3%; color:#fff; text-align:justify; font-display: swap; }
+		.nav-contact-mobile {display: none;}
+		.nav-contact-pc {width: 20px; margin-left: 0; padding: 0; margin: 0;}
+			.nav-contact-pc-link {padding: 0; margin: 0; margin-left: 3px;}
+
+		.jquery-script-ads{display:none;}
+
+
+		.pc_banner { width:100%;  margin-left:13%;  margin-top: 3%; color:#fff; text-align:justify; font-display: swap; }
 		 	.table1 {width:100%;}
 			.banner1 { margin-left: 5%; width:100%;}
 			.follw {width: 7%; margin-left: 15%;}
+			.phone_logo {width: 5%; margin-top: 2%;margin-left: 16%;}
 			.insta_logo {width: 5%; margin-top: 2%;margin-left: 16%;}
 			.kakao_logo {width: 5%; margin-top: 2%;margin-left: 16%;}
+			.talktalk_logo {width: 5%; margin-top: 2%;margin-left: 16%;}
 			.cafe_logo {width: 8%; margin-top: 3%;margin-left: 15%;}
 			.blog_logo {width: 5%; margin-top: 3%;margin-left: 16%;}
 			.facebook_logo {width: 5%; margin-top: 3%;margin-left: 16%;}
-		.reser{margin-left: 30%;}
+			
+		.reser{margin-right: 18%;}
 		
 		.mobile_banner{display: none;}
 
