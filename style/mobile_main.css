@@ -9,7 +9,7 @@
 body{background-color:#fff; background-image:url(../images/bg.png); }
 	#pc_main { display:none;}
 	#mobile_main { display: all;}
-#mobile_logo{width: 16%; padding: 1.5%;}
+#mobile_logo{height: 60px; padding: 8px;}
 
 .pc_banner{display: none;}
 
