@@ -25,6 +25,17 @@ $(document).ready(function(){
         return check;
     };
 
+    // add mobile class to a elements when the website is opened on mobile.
+    if (window.mobileCheck() == true) {
+      $("a").each(function () {
+        $(this).addClass("mobile");
+      })
+    } else {
+      $("a").each(function () {
+        $(this).addClass("desktop");
+      })
+    }
+
     // remove hrefs of telephone a tags and add popup div  
     if (window.mobileCheck() == false) {
         $("a").each(function () {
