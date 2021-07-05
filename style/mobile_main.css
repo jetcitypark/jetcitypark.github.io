@@ -8,7 +8,7 @@
 
 body{background-color:#fff; background-image:url(../images/bg.png); }
 	#pc_main { display:none;}
-	#mobile_main { display: all;}
+	#mobile_main { display: block;}
 #mobile_logo{height: 60px; padding: 8px;}
 
 .nav-contact-mobile {position: absolute; cursor: pointer; height: 26px; top: 14px;}

@@ -75,18 +75,26 @@ $(document).ready(function(){
 });
 
 function showTelNumberDiv(telNumber) {
-    $("#modal-content-tel-number").html(telNumber);
-    
-    $("#myModal").css({display: "block"});
-    
-    $("header").animate({height: "toggle"});
+  $("#modal-content-tel-number").html(telNumber);
+
+  $("#myModal").css({display: "block"});
+
+  $("header").animate({height: "toggle"});
 }
 
 function hideTelNumberDiv() {
 
-    $("#myModal").css({display: "none"});
+  $("#myModal").css({display: "none"});
 
-    $("header").animate({height: "toggle"});
+  $("header").animate({height: "toggle"});
+
 }
 
+// resize font
+$(document).ready(()=> {resetFontSize()
+  $(window).resize(resetFontSize);
+});
 
+function resetFontSize() {
+  $("div#price-rental").css({fontSize: $("div#price-rental div#item-1").width() / 16.5});
+}
