@@ -91,10 +91,12 @@ function hideTelNumberDiv() {
 }
 
 // resize font
-$(document).ready(()=> {resetFontSize()
+$(document).ready(()=> {
+  resetFontSize();
   $(window).resize(resetFontSize);
 });
 
 function resetFontSize() {
+  $("div#price-lesson").css({fontSize: $("div#price-lesson").width() / 32.5});
   $("div#price-rental").css({fontSize: $("div#price-rental div#item-1").width() / 16.5});
 }
