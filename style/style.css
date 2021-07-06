@@ -353,8 +353,8 @@ div#price-chicken .name {
 div#price-chicken .type {
   color: white;
   font-size: 0.8em;
+  width: 26%;
 }
-
 
 div#price-chicken .price {
   vertical-align: top;
