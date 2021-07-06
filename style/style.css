@@ -18,6 +18,11 @@ h1 {
 	margin-top: 0.2em;
 }
 
+a.blue-underline {
+  color: blue;
+  text-decoration: underline;
+}
+
 .myButton {
 	box-shadow:inset 0px 1px 0px 0px #a4e271;
 	
