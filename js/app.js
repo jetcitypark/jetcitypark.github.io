@@ -28,7 +28,7 @@ window.mobileCheck = function() {
 
 $(document).ready(function() {
   // add mobile class to a elements when the website is opened on mobile.
-  if (window.mobileCheck() == true) {
+  if (window.mobileCheck()) {
     $("a").each(function () {
       $(this).addClass("mobile");
     })
@@ -93,7 +93,7 @@ function hideTelNumberDiv() {
 }
 
 // resize font
-$(document).ready(()=> {
+$(document).ready(function () {
   resetFontSize();
   $(window).resize(resetFontSize);
 });
@@ -106,12 +106,18 @@ function resetFontSize() {
 }
 
 
-$(document).ready(() => {
+$(document).ready(function () {
 // iframe unmute on mobile
   if (window.mobileCheck()) {
     $("div.video-wrap iframe").attr("src", "https://www.youtube.com/embed/o0rGaqeNODk?rel=0&playsinline=1&start=12&end=166&autoplay=1&loop=1&playlist=o0rGaqeNODk");
     $("div.video-wrap iframe").addClass("mobile");
   } else {
     $("div.video-wrap iframe").addClass("desktop");
+  }
+})
+
+$(document).ready(function () {
+  if (!window.mobileCheck()) {
+    $("#photo-viewer").removeClass("display-none");
   }
 })
