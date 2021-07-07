@@ -109,5 +109,8 @@ $(document).ready(() => {
 // iframe unmute on mobile
   if (window.mobileCheck()) {
     $("div.video-wrap iframe").attr("src", "https://www.youtube.com/embed/o0rGaqeNODk?rel=0&playsinline=1&start=12&end=166&autoplay=1&loop=1&playlist=o0rGaqeNODk");
+    $("div.video-wrap iframe").addClass("mobile");
+  } else {
+    $("div.video-wrap iframe").addClass("desktop");
   }
 })
