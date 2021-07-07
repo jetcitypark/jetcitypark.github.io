@@ -367,3 +367,56 @@ div#price-chicken .price span {
   font-size: 0.85em;
 }
 
+
+div#bus-time {
+  font-family: S-CoreDream-8Heavy;
+  font-stretch: ultra-condensed;
+  background-image: url("../images/background-bus.jpg");
+  background-size: cover;
+  font-weight: bold;
+  width: 100%;
+}
+
+div#bus-time table {
+  vertical-align: top;
+  line-height: 1.5em;
+  margin-top: 0;
+  margin-bottom:5%;
+  width: 100%;
+}
+
+div#bus-time .space1 {
+  width: 6%;
+}
+div#bus-time .title {
+  vertical-align: top;
+  color: white;
+  font-size: 1.1em;
+  height: 1.5em;
+
+}
+
+div#bus-time .name {
+  vertical-align: top;
+  color: white;
+  font-size: 1em;
+  width: 27%;
+}
+
+div#bus-time .name span {
+  color: black;
+  background: white;
+  margin: 0;
+}
+
+
+div#bus-time .time {
+  vertical-align: top;
+  color: white;
+  font-size: 1em;
+  width: 16%;
+}
+
+div#bus-time .space2 {
+  width: 4%;
+}
