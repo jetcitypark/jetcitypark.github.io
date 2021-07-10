@@ -75,8 +75,12 @@
         color: black;
       }
 
+      nav tr td.first {
+        width: 3.5%;
+      }
+
       nav tr td.contact {
-        width: 10%;
+        width: 12%;
       }
 				#mobile_main {display:none;}
 				#mobile_navi {display:none;}
