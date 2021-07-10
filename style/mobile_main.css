@@ -12,7 +12,7 @@ body{background-color:#fff; background-image:url(../images/bg.png); }
 #mobile_logo{height: 60px; padding: 8px;}
 
 .nav-contact-mobile {position: absolute; cursor: pointer; height: 26px; top: 14px;}
-	.nav-contact-mobile-phone    {right: 200px;}
+	div.nav-contact-mobile-phone {right: 180px; top: 15px;}
 	.nav-contact-mobile-talktalk {right: 140px;}
 	.nav-contact-mobile-kakao    {right: 80px;}
 

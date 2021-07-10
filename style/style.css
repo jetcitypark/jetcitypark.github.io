@@ -212,16 +212,19 @@ div#price-rental table {
 }
 
 div#price-rental .name {
+  vertical-align: top;
   color: white;
   font-size: 1em;
 }
 
 div#price-rental .type {
+  vertical-align: top;
   color: white;
   font-size: 0.8em;
 }
 
-div#price-rental .disc {
+div#price-rental span.disc {
+  vertical-align: top;
   color: #FFF17E;
   font-size: 0.7em;
   line-height: 1.3em;
@@ -229,10 +232,16 @@ div#price-rental .disc {
 }
 
 div#price-rental .price span{
+  vertical-align: top;
   color: black;
   background: white;
   margin: 0;
   font-size: 0.85em;
+}
+
+div#price-rental .price .myButton {
+  font-size: 0.7em;
+  padding: 1% 1%;
 }
 
 div#price-rental div#item-1 > div {

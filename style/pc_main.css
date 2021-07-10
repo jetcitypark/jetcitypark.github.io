@@ -8,12 +8,11 @@
 		#mobile_main {display: none;}
 		.logo {width:20%;}
 		nav{
-			font-size: 13px;
+			font-size: 15px;
 			float: left;
 			z-index: 11;
 			background-color: #ffffff;
-			width: 90%;
-			margin-left: 5%;
+			width: 100%;
 			text-align: center;
 			}
 			nav ul{
@@ -67,6 +66,18 @@
 				background:#fff;
 				opacity:0.5;
 				}
+
+      nav tr td {
+        width: 6%;
+      }
+
+      nav tr td a {
+        color: black;
+      }
+
+      nav tr td.contact {
+        width: 10%;
+      }
 				#mobile_main {display:none;}
 				#mobile_navi {display:none;}
 

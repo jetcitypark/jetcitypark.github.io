@@ -100,7 +100,7 @@
 
 	<header class="p-0 fixed-top container-fluid bg-white ">
     <div id="pc_main" class="container-lg">
-      <nav>
+      <nav class="m-0">
     		<div class="row">
     			<div class="col">
 		      <a href="/" class="navbar-brand mr-0 mr-md-2 mt-2 mb-2 mt-2"><img src="images/logo.png" class="logo"></a>
@@ -108,34 +108,43 @@
 		    </div>
 		    <div class="row">
 	       	<div class="col mb-2">
+            <table width="100%">
+              <tbody>
+              <tr>
+                <td class="nav-item p-0">
+                  <a class="nav-link p-0" href="#intro">젯시티</a>
+                </td>
+                <td class="nav-item p-0">
+                  <a class="nav-link p-0" href="#lesson">서핑강습</a>
+                </td>
+                <td class="nav-item p-0">
+                  <a class="nav-link p-0" href="#guesthouse">숙박·시즌권</a>
+                </td>
+                <td class="nav-item p-0">
+                  <a class="nav-link p-0" href="#rental">렌탈</a>
+                </td>
+                <td class="nav-item p-0">
+                  <a class="nav-link p-0" href="#chicken">치킨·맥주</a>
+                </td>
+                <td class="nav-item p-0">
+                  <a class="nav-link p-0" href="#photo">강습사진</a>
+                </td>
+                <td class="nav-item p-0">
+                  <a class="nav-link p-0" href="#location">오시는길</a>
+                </td>
+                <td class="nav-item p-0">
+                  <a class="nav-link p-0" href="#faq">자주묻는질문</a>
+                </td>
+                <td class="nav-item p-0 text-right contact">
+                  <a class="d-inline nav-contact-pc-link 070-4411-6789" href="tel:070-4411-6789" target="_blank"><img class="nav-contact-pc " src="images/phone_logo.png"  title="전화 연결하기">070-4411-6789</a>
+                  <a class="d-inline nav-contact-pc-link" href="https://talk.naver.com/WCA9ZP" target="_blank"><img class="nav-contact-pc" src="images/talk_logo.png"  title="톡톡 연결하기"></a>
+                  <a class="d-inline nav-contact-pc-link" href="https://open.kakao.com/o/sdLY3no" target="_blank"><img class="nav-contact-pc" src="images/kakao_logo.png"  title="카톡 연결하기"></a>
+                </td>
+              </tr>
+              </tbody>
+            </table>
 	  	     	<ul>
-		  				<li class="nav-item p-0">
-		  					<a class="nav-link p-0" href="#intro">젯시티</a>
-		  				</li>
-	            <li class="nav-item p-0">
-    		      	<a class="nav-link p-0" href="#lesson">서핑강습</a>
-        		  </li>
-          		<li class="nav-item p-0">
-			  				<a class="nav-link p-0" href="#guesthouse">숙박·시즌권</a>
-          		</li>
-			  			<li class="nav-item p-0">
-          			<a class="nav-link p-0" href="#rental">렌탈</a>
-		          </li>
-			  			<li class="nav-item p-0">
-			  				<a class="nav-link p-0" href="#chicken">치킨·맥주</a>
-		          </li>
-			  			<li class="nav-item p-0">
-			  				<a class="nav-link p-0" href="#photo">강습사진</a>
-			  			</li>
-			  			<li class="nav-item p-0">
-			  				<a class="nav-link p-0" href="#location">오시는길</a>
-		          </li>
-		          <li class="nav-item p-0">
-			  				<a class="nav-link p-0" href="#faq">자주묻는질문</a>
-		          </li>
-		          <li class="nav-item p-0 text-right">
-								<a class="d-inline nav-contact-pc-link 070-4411-6789" href="tel:070-4411-6789" target="_blank"><img class="nav-contact-pc " src="images/phone_logo.png"  title="전화 연결하기"></a><a class="d-inline nav-contact-pc-link" href="https://talk.naver.com/WCA9ZP" target="_blank"><img class="nav-contact-pc" src="images/talk_logo.png"  title="톡톡 연결하기"></a><a class="d-inline nav-contact-pc-link" href="https://open.kakao.com/o/sdLY3no" target="_blank"><img class="nav-contact-pc" src="images/kakao_logo.png"  title="카톡 연결하기"></a>
-							</li>
+
 						</ul>
 					</div>
 				</div>
@@ -149,7 +158,14 @@
 							<a class="navbar-brand" href="/"><img src="images/logo_white.png" id="mobile_logo"></a>
 						</div>
 			      <div class="main-nav">
-			      	<a class="nav-contact-mobile-link 070-4411-6789" href="tel:070-4411-6789" target="_blank"><img src="images/phone_logo_white.png"  class="nav-contact-mobile nav-contact-mobile-phone" title="전화 연결하기"></a>
+			      	<div class="nav-contact-mobile-phone position-absolute" width="300px">
+                <p>
+                  <a class="nav-contact-mobile-link 070-4411-6789 d-inline" style="vertical-align: middle;" href="tel:070-4411-6789" target="_blank">
+                    <img class="nav-contact-mobile nav-contact-mobile-phone position-static d-inline" style="align: left;vertical-align: middle;" src="images/phone_logo_white.png"  title="전화 연결하기">
+                    070-4411-6789
+                  </a>
+                </p>
+              </div>
 				      <a class="nav-contact-mobile-link" href="https://talk.naver.com/WCA9ZP" target="_blank"><img src="images/talk_logo_white.png"  class="nav-contact-mobile nav-contact-mobile-talktalk" title="톡톡 연결하기"></a>
               <a class="nav-contact-mobile-link" href="https://open.kakao.com/o/sdLY3no" target="_blank"><img src="images/kakao_logo_white.png"  class="nav-contact-mobile nav-contact-mobile-kakao" title="카톡 연결하기"></a>
 							<a class="hamburger-nav"></a>
@@ -598,7 +614,7 @@
                             <td class="space"></td>
                             <td class="name">서핑 보드</td>
                             <td class="type">스펀지 보드</td>
-                            <td class="price"><span>&nbsp;2.5만원&nbsp;</span></td>
+                            <td class="price"><span>&nbsp;2.5만원&nbsp;</span><br><a class="rantal myButton" href="https://smartstore.naver.com/jetcity/products/2771057521"  target="_blank">네이버 쇼핑</a></td>
                             <td></td>
                           </tr>
                           <tr>
@@ -628,7 +644,7 @@
                             <td class="space"></td>
                             <td class="name">서핑 슈트</td>
                             <td class="type">4mm이하 봄가을 슈트</td>
-                            <td class="price"><span>&nbsp;1.5만원&nbsp;</span></td>
+                            <td class="price"><span>&nbsp;1.5만원&nbsp;</span><br><a class="rantal myButton" href="https://smartstore.naver.com/jetcity/products/2771057521"  target="_blank">네이버 쇼핑</a></td>
                             <td></td>
                           </tr>
                           <tr>
@@ -651,27 +667,29 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col col-md-6">
+                  <div class="col col-md-6 pr-0">
                     <div id="item-3">
                       <div><img src="images/boardwetsuiticon.png" alt=""/></div>
                       <table>
                         <tbody>
                           <tr>
                             <td class="space"></td>
-                            <td class="name">서핑 보드 + 슈트</td>
-                            <td class="price"><span>&nbsp;3.5만원&nbsp;</span></td>
+                            <td class="name">
+                              서핑 보드 + 슈트<br>
+                              <span class="disc">5m 겨울 슈트 렌탈시 5천원 추가<br>패들보드 렌탈시 1만 5천원 추가</span>
+                            </td>
+                            <td class="price"><span>&nbsp;3.5만원&nbsp;</span><br><a class="rantal myButton" href="https://smartstore.naver.com/jetcity/products/2771057521"  target="_blank">네이버 쇼핑</a></td>
                             <td></td>
                           </tr>
                           <tr>
                             <td class="space"></td>
-                            <td class="disc" colspan="2">5m 겨울 슈트 렌탈시 5천원 추가<br>패들보드 렌탈시 1만 5천원 추가<br><br></td>
                             <td></td>
                           </tr>
                         </tbody>
                       </table>
                     </div>
                   </div>
-                  <div class="col-md-6">
+                  <div class="col-md-6 pl-0">
                     <div id="item-4">
                       <div><img src="images/boardwetsuiticon.png" alt=""/></div>
                       <table>
@@ -839,7 +857,7 @@
                     </tr>
                     <tr>
                       <td class="space"></td>
-                      <td class="name">클라우드(병맥주)</td>
+                      <td class="name">병맥주 (클라우드)</td>
                       <td class="type"></td>
                       <td class="price"><span>&nbsp;4,000원&nbsp;</span></td>
                       <td></td>

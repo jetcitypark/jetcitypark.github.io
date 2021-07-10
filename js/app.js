@@ -100,7 +100,7 @@ $(document).ready(function () {
 
 function resetFontSize() {
   $("div#price-lesson").css({fontSize: $("div#price-lesson").width() / 32.5});
-  $("div#price-rental").css({fontSize: $("div#price-rental div#item-1").width() / 16.5});
+  $("div#price-rental").css({fontSize: $("div#price-rental div#item-1").width() / 18});
   $("div#price-chicken").css({fontSize: $("div#price-chicken").width() / 22});
   $("div#bus-time").css({fontSize: $("div#bus-time").width() / 26});
 }
