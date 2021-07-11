@@ -61,8 +61,8 @@ body{background-color:#fff; background-image:url(../images/bg.png); }
 
 
 
-.top1{display: none;}
-.top2{ width:15%; position: fixed; margin-left: 70%; bottom: 20px;}
+img.top1{display: none;}
+img.top2{width:20%; position: fixed; margin-left: 80%; bottom: 20px;}
 			
 
 
