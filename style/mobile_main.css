@@ -54,9 +54,9 @@ body{background-color:#fff; background-image:url(../images/bg.png); }
 
 
 #location {font-display: swap;}	
-		.map{width: 5%;}
-		.car{width: 10%;}
-		.bus{width: 10%;}
+		.map{width: 30px;}
+		.car{width: 60px;}
+		.bus{width: 60px;}
 		.bus_time{width: 100%;}
 
 
