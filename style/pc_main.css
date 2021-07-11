@@ -8,9 +8,9 @@
 		#mobile_main {display: none;}
 		.logo {width:20%;}
 		nav{
-			font-size: 15px;
+			font-size: 0.85em;
 			float: left;
-			z-index: 11;
+			z-index: 12;
 			background-color: #ffffff;
 			width: 100%;
 			text-align: center;
@@ -69,6 +69,7 @@
 
       nav tr td {
         width: 6%;
+        padding: 0;
       }
 
       nav tr td a {
