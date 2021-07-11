@@ -30,26 +30,63 @@ a.blue-underline {
 .myButton {
 	box-shadow:inset 0px 1px 0px 0px #a4e271;
 	
-	background-color:rgb(6,191,80);
-	border-radius:6px;
-	border:1px solid #74b807;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:16px;
-	font-weight:bold;
-	padding:6px 6px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #528009;			
+	background-color: rgb(6,191,80);
+	border-radius: 6px;
+	border: 1px solid #74b807;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 6px 6px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #528009;
 }
 .myButton:hover {
 	background-color:rgb(16,201,90);
 	color:#ffffff;
+  text-decoration: none;
 }
-.myButton:active {
-	position:relative;
-	top:1px;
+.myButton:focus {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.naver-button {
+}
+
+.google-button {
+  box-shadow:inset 0px 1px 0px 0px rgb(92,156,244);
+
+  background-color:rgb(52,116,224);
+  color: #ffffff;
+  border: 1px solid rgb(32,96,204);
+  text-shadow: 0px 1px 0px rgb(32,96,204);
+}
+.google-button:hover {
+  background-color:rgb(64,126,226);
+  color:#ffffff;
+}
+.google-button:focus {
+  color: #ffffff;
+}
+
+
+.kakao-button {
+  box-shadow:inset 0px 1px 0px 0px rgb(256,244,95);
+
+  background-color: rgb(247,224,75);
+  color: #000000;
+  border: 1px solid rgb(227,204,55);
+  text-shadow: 0px 1px 0px rgb(227,204,55);
+}
+.kakao-button:hover {
+  background-color:rgb(256,224,95);
+  color:#000000;
+}
+.kakao-button:active {
+  color:#000000;
 }
 
 
