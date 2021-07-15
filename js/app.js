@@ -99,7 +99,7 @@ $(document).ready(function () {
 });
 
 function resetFontSize() {
-  $("div#price-lesson").css({fontSize: $("div#price-lesson").width() / 32.5});
+  $("div#price-lesson").css({fontSize: $("div#price-lesson").width() / 34});
   $("div#price-rental").css({fontSize: $("div#price-rental div#item-1").width() / 18});
   $("div#price-chicken").css({fontSize: $("div#price-chicken").width() / 22});
   $("div#bus-time").css({fontSize: $("div#bus-time").width() / 26});
@@ -120,4 +120,23 @@ $(document).ready(function () {
   if (!window.mobileCheck()) {
     $("#photo-viewer").removeClass("display-none");
   }
+})
+
+// name test: 서핑입문강습 vs 서핑입문체험강습
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
+
+$(document).ready(function () {
+  var v = getRandomInt(2);
+  var name;
+  if (v==0) {
+    name = "강습"
+    $("#basic-lesson-name").html(name);
+    $("#basic-lesson-disc1").html("서핑입문을 탄탄한 기초교육과 부담없는 가격으로");
+  } else {
+    name = "체험강습"
+  }
+  $(".price-lesson-table-button").addClass(name)
+
 })
