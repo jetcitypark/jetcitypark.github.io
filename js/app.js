@@ -100,6 +100,7 @@ $(document).ready(function () {
 
 function resetFontSize() {
   $("div#price-lesson").css({fontSize: $("div#price-lesson").width() / 34});
+  $("div#price-guesthouse").css({fontSize: $("div#price-guesthouse").width() / 30});
   $("div#price-rental").css({fontSize: $("div#price-rental div#item-1").width() / 18});
   $("div#price-chicken").css({fontSize: $("div#price-chicken").width() / 22});
   $("div#bus-time").css({fontSize: $("div#bus-time").width() / 26});
@@ -132,8 +133,8 @@ $(document).ready(function () {
   var name;
   if (v==0) {
     name = "강습"
-    $("#basic-lesson-name").html(name);
-    $("#basic-lesson-disc1").html("서핑입문을 탄탄한 기초교육과 부담없는 가격으로");
+    $("#price-lesson-basic-name").html(name);
+    $("#price-lesson-basic-disc1").html("서핑입문을 탄탄한 기초교육과 부담없는 가격으로");
   } else {
     name = "체험강습"
   }
