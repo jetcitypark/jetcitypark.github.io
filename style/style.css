@@ -14,8 +14,25 @@ body {
 }
 
 h1 {
-	color: black;
+  font-family: S-CoreDream-8Heavy;
+
 	margin-top: 0.2em;
+}
+
+h1.section{
+
+}
+h1.subsection {
+
+}
+
+
+a {
+  color: white;
+}
+
+#price-lesson a:hover {
+  color: #ffffff;
 }
 
 .display-none{
@@ -199,7 +216,7 @@ div#price-lesson .disc1 {
   vertical-align: top;
   color: white;
   font-size: 0.8em;
-  width: 46%;
+  width: 47%;
 }
 
 div#price-lesson .type {
