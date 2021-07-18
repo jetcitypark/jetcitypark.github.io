@@ -306,13 +306,23 @@ div#price-guesthouse .name {
   font-size: 1em;
 }
 
-div#price-guesthouse .name span, div#price-guesthouse .name-sub {
+div#price-guesthouse .name span, div#price-guesthouse td.name-sub {
   vertical-align: top;
   color: white;
+}
+
+div#price-guesthouse .name span, div#price-guesthouse td.name-sub span.name-sub1 {
   font-size: 0.9em;
   text-decoration: underline;
   text-decoration-color: #FFF17E;
   text-underline-offset: 5px;
+}
+
+div#price-guesthouse table#price-guesthouse-room td.name-sub span.name-sub2 {
+  color: #FFF17E;
+  text-decoration: none;
+  font-size: 0.7em;
+  line-height: 1.3em;
 }
 
 div#price-guesthouse .disc1, div#price-guesthouse .disc1-1  {
@@ -356,15 +366,16 @@ div#price-guesthouse .price .myButton {
 
 
 div#price-guesthouse table#price-guesthouse-room td.name {
-  width: 13%;
+  width: 10%;
 }
 
 div#price-guesthouse table#price-guesthouse-room td.name-sub {
-  width: 14%;
+  width: 21%;
 }
 
+
 div#price-guesthouse table#price-guesthouse-room td.disc1 {
-  width: 56%;
+  width: 52%;
 }
 
 div#price-guesthouse table#price-guesthouse-room td.pension {
