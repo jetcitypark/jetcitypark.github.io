@@ -27,7 +27,8 @@ h1.subsection {
 }
 
 h2 {
-
+  font-family: S-CoreDream-8Heavy;
+  font-size: 160%;
 }
 
 a {
@@ -352,11 +353,17 @@ div#price-guesthouse .price {
   width: 15%;
 }
 
-div#price-guesthouse .price span {
+div#price-guesthouse .price span.price {
   color: black;
   background: white;
   margin: 0;
   font-size: 0.9em;
+}
+
+div#price-guesthouse .price span.price-sub {
+  color: white;
+  margin: 0;
+  font-size: 0.7em;
 }
 
 div#price-guesthouse .price .myButton {
@@ -379,7 +386,7 @@ div#price-guesthouse table#price-guesthouse-room td.disc1 {
 }
 
 div#price-guesthouse table#price-guesthouse-room td.pension {
-  line-height: 1em;
+
 }
 
 
