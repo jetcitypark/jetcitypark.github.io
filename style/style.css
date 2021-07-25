@@ -326,7 +326,7 @@ div#price-guesthouse table#price-guesthouse-room td.name-sub span.name-sub2 {
   line-height: 1.3em;
 }
 
-div#price-guesthouse .disc1, div#price-guesthouse .disc1-1  {
+div#price-guesthouse .disc1, div#price-guesthouse .type, div#price-guesthouse .disc1-1  {
   vertical-align: top;
   color: white;
   line-height: 2em;
@@ -382,7 +382,11 @@ div#price-guesthouse table#price-guesthouse-room td.name-sub {
 
 
 div#price-guesthouse table#price-guesthouse-room td.disc1 {
-  width: 52%;
+  width: 44%;
+}
+
+div#price-guesthouse table#price-guesthouse-room td.type {
+  width: 8%;
 }
 
 div#price-guesthouse table#price-guesthouse-room td.pension {
@@ -475,6 +479,10 @@ div#price-rental span.disc {
   padding-top: 1.5%;
 }
 
+div#price-rental .price {
+  vertical-align: top;
+}
+
 div#price-rental .price span{
   vertical-align: top;
   color: black;
@@ -491,7 +499,7 @@ div#price-rental .price .myButton {
 div#price-rental div#item-1 > div {
   position: absolute;
   width: 12%;
-  top: 15%;
+  top: 10%;
   left: 6%;
 }
 
@@ -515,7 +523,7 @@ div#price-rental div#item-1 table .type {
 div#price-rental div#item-2 > div {
   position: absolute;
   width: 10%;
-  top: 25%;
+  top: 18%;
   left: 5%;
 }
 
