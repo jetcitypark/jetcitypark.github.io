@@ -123,21 +123,3 @@ $(document).ready(function () {
   }
 })
 
-// name test: 서핑입문강습 vs 서핑입문체험강습
-function getRandomInt(max) {
-  return Math.floor(Math.random() * max);
-}
-
-$(document).ready(function () {
-  var v = getRandomInt(2);
-  var name;
-  if (v==0) {
-    name = "강습"
-    $("#price-lesson-basic-name").html(name);
-    $("#price-lesson-basic-disc1").html("서핑입문을 탄탄한 기초교육과 부담없는 가격으로");
-  } else {
-    name = "체험강습"
-  }
-  $(".price-lesson-table-button").addClass(name)
-
-})
